@@ -13,6 +13,13 @@ Experiments on real-world large-scale datasets demonstrate the effectiveness of 
      m (number of clusters)       | 10    |   10     |   100     |   1000   |
 
 ## Experiments
-### Comparison
+### Comparison of Observed and Theoretical Accuracy
 
-### 
+### Comparison with other clustering methods
+1. $k$-means++ 
+2. Robust $k$-means
+3. Complete Linkage Clustering (CL) 
+4. Spectral Clustering (SC) 
+5. Tensor Decomposition (TD) 
+6. Expectation Maximization (EM) [5]
+7. $t$-Distributed Stochastic Neighbor Embedding ($t$-SNE) 
