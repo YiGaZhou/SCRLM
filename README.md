@@ -7,5 +7,12 @@ Experiments on real-world large-scale datasets demonstrate the effectiveness of 
 ### Synthetic Datasets
 
 ### Real Datasets
-| MNIST | CIFAR-10 | CIFAR-100 | ImageNet |
-p | 512 | 4096| 4096 | 640 |
+                                  | MNIST | CIFAR-10 | CIFAR-100 | ImageNet |
+     p (dimension)                | 512   |   4096   |   4096    |   640    |
+     N (number of observations)   | 60000 |   50000  |   50000   |   50000  |
+     m (number of clusters)       | 10    |   10     |   100     |   1000   |
+
+## Experiments
+### Comparison
+
+### 
