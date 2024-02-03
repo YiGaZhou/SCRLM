@@ -1,1 +1,1 @@
-# SCRLM
+# Scalable Clustering
