@@ -8,3 +8,4 @@ Experiments on real-world large-scale datasets demonstrate the effectiveness of 
 
 ### Real Datasets
 | MNIST | CIFAR-10 | CIFAR-100 | ImageNet |
+p | 512 | 4096| 4096 | 640 |
