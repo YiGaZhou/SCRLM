@@ -18,7 +18,7 @@ $
 The distribution of outliers is given by,
 
 $
-O(\mathbf{x})=\mathcal{N}\left(\boldsymbol{0},I_{p}\right)
+O({x})={N}\left(0,I_{p}\right)
 $
 ## Datasets
 
