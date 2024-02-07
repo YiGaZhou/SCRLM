@@ -10,7 +10,7 @@ $$p(\mathbf{x} \mid \Theta)=\sum_{i=1} ^{m} w_{i} \mathcal{N}\left(\mathbf{x} \m
 
 Each component density is a $p$-variate Gaussian function of the form,
 
-$$ \mathcal{N} \left( \mathbf{x} \mid \mu_i, \sigma_i \right) = \frac{1}{(2 \pi)^{p / 2} |\sigma_i^2 I_p|^{1 / 2}} \exp \left\{-\frac{1}{2 \sigma_i^2}\left\|\mathbf{x}-\mu_i \right\|^2 \right\}$$
+$$ \mathcal{N} \left( \mathbf{x} \mid \mu_i, \sigma_i \right) = \frac{1}{(2 \pi)^{p / 2} |\sigma_i^2 I_p|^{1 / 2}} \exp \{-\frac{1}{2 \sigma_i^2}\left\|\mathbf{x}-\mu_i \right\|^2 \}$$
 
 The distribution of outliers is given by,
 
