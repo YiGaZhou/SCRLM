@@ -6,10 +6,8 @@ Experiments on real-world large-scale datasets demonstrate the effectiveness of 
 
 A Gaussian mixture model with outliers is a weighted sum of $m$ component Gaussian densities and outliers,
 
-$
-p(\mathbf{x} \mid \Theta)=\sum_{i=1}^{m} w_{i} \mathcal{N}\left(\mathbf{x} \mid \boldsymbol{\mu}_{i}, \sigma_{i}\right)
-+w_{-1} O(\mathbf{x})
-$
+$p(\mathbf{x} \mid \Theta)=\sum_{i=1}^{m} w_{i} \mathcal{N}\left(\mathbf{x} \mid \boldsymbol{\mu}_{i}, \sigma_{i}\right)
++w_{-1} O(\mathbf{x})$
 
 Each component density is a $p$-variate Gaussian function of the form,
 
