@@ -24,10 +24,10 @@ $$ O(\mathbf{x})=\mathcal{N}(0,I_{p})$$
 #### See [Feature_Extraction](./Feature_Extraction) for more details
 
 ## Real Datasets
-                                  | MNIST | CIFAR-10 | CIFAR-100 | ImageNet |
-     p (dimension)                | 512   |   4096   |   4096    |   640    |
-     N (number of observations)   | 60000 |   50000  |   50000   |   50000  |
-     m (number of clusters)       | 10    |   10     |   100     |   1000   |
+                                | MNIST | CIFAR-10 | CIFAR-100 | ImageNet validation | ImageNet train |
+     p (dimension)              | 512   |   4096   |   4096    |         640         |     640        |
+     N (number of observations) | 60000 |   50000  |   50000   |         50000       |     1281167    |
+     m (number of clusters)     | 10    |   10     |   100     |         1000        |     1000       |
 
 # Experiments
 
