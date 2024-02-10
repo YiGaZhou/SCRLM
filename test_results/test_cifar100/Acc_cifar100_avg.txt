@@ -1,2 +1,2 @@
-CL,SC,EM,TD,t-SNE+kmeans,SCRLM,kmeans++,scrlm+kmeans,robust kmeans++
-0.10294,0.252276,0.3409,0.374302,0.387758,0.182762,0.336422,0.356924,0.344784
+CL,SC,EM,TD,tsne+kmeans++,SCRLM,kmeans++,scrlm+kmeans,robust kmeans++
+0.10294,0.252276,0.3409,0.374302,0.387758,0.182762,0.336422,0.356924,0.338048
