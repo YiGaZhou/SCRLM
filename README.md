@@ -19,6 +19,10 @@ The distribution of outliers is given by,
 $$ O(\mathbf{x})=\mathcal{N}(0,I_{p})$$
 # Datasets
 
+## Data Preprocessing
+
+#### See [Feature_Extraction](./Feature_Extraction) for more details
+
 ## Real Datasets
                                   | MNIST | CIFAR-10 | CIFAR-100 | ImageNet |
      p (dimension)                | 512   |   4096   |   4096    |   640    |
@@ -26,15 +30,20 @@ $$ O(\mathbf{x})=\mathcal{N}(0,I_{p})$$
      m (number of clusters)       | 10    |   10     |   100     |   1000   |
 
 # Experiments
+
+
 ## Comparison of Observed and Theoretical Accuracy
 
-See [test_experimental_bounds]
+#### See [test_experimental_bounds](./test_experimental_bounds) for more details.
 
 ## Comparison with other clustering methods
+
 1. $k$-means++ 
-2. Robust $k$-means
+2. Robust $k$-means++
 3. Spectral Clustering (SC) 
 4. Tensor Decomposition (TD) 
 5. Expectation Maximization (EM) 
 6. Complete Linkage Clustering (CL) 
 7. $t$-Distributed Stochastic Neighbor Embedding ($t$-SNE) 
+
+#### See [test_results](./test_results) for more details.
