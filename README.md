@@ -35,7 +35,7 @@ $$ O(\mathbf{x})=\mathcal{N}(0,I_{p})$$
 
 ### Comparison of Observed and Theoretical Accuracy
 
-#### See [test_experimental_bounds](./test_experimental_bounds) for more details.
+#### See [test_bounds](./test_results/test_bounds/) for more details.
 
 ### Comparison with other clustering methods
 
