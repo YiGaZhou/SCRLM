@@ -15,7 +15,7 @@ data=data(randperm(size(data, 1)), :);
 x=data(:,1:p);
 n= ceil(1/0.7*m*(log(4*m)-log(0.01)));
 x_sub = x(1:n,:);
-d = pdist2(x_sub,x_sub);
+d = pdist2(x_sub,x);
 d = d./sqrt(8/3*p);
 histogram(d,30);
 %xlim([0,1])
