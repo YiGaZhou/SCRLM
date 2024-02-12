@@ -15,11 +15,11 @@ plot(1912,70.57,"d","MarkerSize",8,'MarkerFaceColor','#4aa82c','MarkerEdgeColor'
 %% KMEANS
 plot(31.5,57.17,"o","MarkerSize",8,'MarkerFaceColor','g','MarkerEdgeColor','g');
 %% SCRLM
-plot(5.55,34.62,"hexagram","MarkerSize",8,'MarkerFaceColor','b','MarkerEdgeColor','b');
+plot(5.56,34.62,"hexagram","MarkerSize",8,'MarkerFaceColor','b','MarkerEdgeColor','b');
 %% SCRLM+KMEANS
-plot(27.6,57.32,"p","MarkerSize",8,'MarkerFaceColor','r','MarkerEdgeColor','r');
+plot(36.90,59.21,"p","MarkerSize",8,'MarkerFaceColor','r','MarkerEdgeColor','r');
 %% Robust kmeans++
-plot(33.7,57.80,"<","MarkerSize",8,'MarkerFaceColor','y','MarkerEdgeColor','r');
+plot(38.02,57.80,"<","MarkerSize",8,'MarkerFaceColor','y','MarkerEdgeColor','r');
 
 set(gca,'FontSize',12)
 ylabel("Accuracy (%)",'fontsize', 12)
